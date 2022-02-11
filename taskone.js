@@ -1,4 +1,4 @@
-let ourArray = [1, 3, 5, ];
+let ourArray = [1, 3, 5];
 
 let a = ourArray[0];
 let b = ourArray[1];
