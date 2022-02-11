@@ -59,3 +59,24 @@ function compare(a, b, c) {
 
 let results = compare(a, b, c);
 console.log(results);
+
+//---------------------------
+
+let ourArray = [4, 5, 7];
+
+let a = ourArray[0];
+let b = ourArray[1];
+let c = ourArray[2];
+
+
+function compare(a, b, c) {
+    if (a < b && b < c) {
+        return 0;
+    } else {
+        return 1;
+    }
+}
+
+
+let results = compare(a, b, c);
+console.log(results);
