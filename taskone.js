@@ -1,59 +1,18 @@
-function compare(num1, num2, num3) {
-    if (num1 < num2 && num2 < num3) {
+let ourArray = [1, 3, 5, ];
+
+let a = ourArray[0];
+let b = ourArray[1];
+let c = ourArray[2];
+
+
+function compare(a, b, c) {
+    if (a < b && b < c) {
         return 0;
-    }
-    if (num1 > num2 && num2 > num3) {
+    } else {
         return 1;
     }
 }
 
 
-let results = compare(1, 3, 5);
-console.log(results);
-
-//-------------------------
-
-
-function compare(num1, num2, num3) {
-    if (num1 < num2 && num2 > num3) {
-        return 1;
-    }
-    if (num1 > num2 && num2 < num3) {
-        return 0;
-    }
-}
-
-
-let results = compare(3, 5, 4);
-console.log(results);
-
-//---------------------------
-
-
-function compare(num1, num2, num3) {
-    if (num1 > num2 && num2 < num3) {
-        return 1;
-    }
-    if (num1 < num2 && num2 > num3) {
-        return 0;
-    }
-}
-
-
-let results = compare(5, 4, 5);
-console.log(results);
-
-//-----------------------------
-
-function compare(num1, num2, num3) {
-    if (num1 < num2 && num2 < num3) {
-        return 0;
-    }
-    if (num1 > num2 && num2 > num3) {
-        return 1;
-    }
-}
-
-
-let results = compare(4, 5, 7);
+let results = compare(a, b, c);
 console.log(results);
